@@ -1,7 +1,6 @@
-
 name: Java CI
 
-on:
+'on':
   pull_request:
   push:
     branches:
@@ -24,4 +23,3 @@ jobs:
 
       - name: Build and test
         run: mvn -B verify
-
